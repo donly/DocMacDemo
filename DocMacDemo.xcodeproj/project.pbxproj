@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60401F7224AF733D002434E9 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CA1A4824ADF34100BAE538 /* Document.xcdatamodeld */; };
 		60CA1A4324ADF34100BAE538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA1A4224ADF34100BAE538 /* AppDelegate.swift */; };
 		60CA1A4524ADF34100BAE538 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA1A4424ADF34100BAE538 /* Document.swift */; };
 		60CA1A4724ADF34100BAE538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA1A4624ADF34100BAE538 /* ContentView.swift */; };
-		60CA1A4A24ADF34100BAE538 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CA1A4824ADF34100BAE538 /* Document.xcdatamodeld */; };
 		60CA1A4C24ADF34200BAE538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CA1A4B24ADF34200BAE538 /* Assets.xcassets */; };
 		60CA1A4F24ADF34200BAE538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CA1A4E24ADF34200BAE538 /* Preview Assets.xcassets */; };
 		60CA1A5224ADF34200BAE538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CA1A5024ADF34200BAE538 /* Main.storyboard */; };
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CA1A4A24ADF34100BAE538 /* Document.xcdatamodeld in Sources */,
+				60401F7224AF733D002434E9 /* Document.xcdatamodeld in Sources */,
 				60CA1A4524ADF34100BAE538 /* Document.swift in Sources */,
 				60CA1A4324ADF34100BAE538 /* AppDelegate.swift in Sources */,
 				60CA1A4724ADF34100BAE538 /* ContentView.swift in Sources */,
@@ -289,10 +289,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DocMacDemo/DocMacDemo.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DocMacDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 86PR75NPPU;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DocMacDemo/Info.plist;
@@ -303,6 +304,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.DocMacDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -312,10 +314,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DocMacDemo/DocMacDemo.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DocMacDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 86PR75NPPU;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DocMacDemo/Info.plist;
@@ -326,6 +329,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.DocMacDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

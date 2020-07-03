@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+  @FetchRequest(entity: Book.entity(), sortDescriptors: []) var books: FetchedResults<Book>
+  
     var body: some View {
         Text("Hello, World!")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
